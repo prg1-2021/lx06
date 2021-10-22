@@ -1,7 +1,7 @@
 import complex1.{Complex => Complex1}
 import complex2.{Complex => Complex2}
 
-object Memory {
+object MemoryTest {
   val runtime = scala.sys.runtime
   def consumedMemory = runtime.totalMemory() - runtime.freeMemory()
 
